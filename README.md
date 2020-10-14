@@ -6,8 +6,8 @@ The package is tailored to work with the ["NOAA Significant Earthquake Database"
 
 ## Installation
 library(devtools)
-devtools::install_github('llangevin/EQVT', build_vignettes = TRUE)
-library(EQVT)
+devtools::install_github('vesakaup/mastering-sw-development-in-r', build_vignettes = TRUE)
+library(mswdr)
 
 
 
