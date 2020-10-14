@@ -1,0 +1,26 @@
+Package: mswdr
+Type: Package
+Title: NOAA Earthquakes Visualization
+Version: 0.1.0
+Author: Vesa Kauppinen
+Maintainer: The package maintainer <wezzo1@yahoo.com>
+Description: A package that can be used to work with the NOAA Significant Earthquakes dataset.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: dplyr,
+    grid,
+    ggplot2,
+    leaflet,
+    lubridate,
+    tidyr,
+    purrr,
+    stringr,
+    readr,
+    magrittr,
+    rlang
+Suggests: knitr,
+    rmarkdown,
+    testthat,
+VignetteBuilder: knitr
+RoxygenNote: 6.1.0
