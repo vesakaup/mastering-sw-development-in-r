@@ -10,7 +10,7 @@ testthat::expect_that(clean_data$DATE, testthat::is_a('Date'))
 testthat::expect_that(clean_data$LATITUDE, testthat::is_a('numeric'))
 testthat::expect_that(clean_data$LONGITUDE, testthat::is_a('numeric'))
 testthat::expect_that(clean_data$EQ_PRIMARY, testthat::is_a('numeric'))
-testthat::expect_that(clean_data$TOTAL_DEATHS, testthat::is_a('integer'))
+
 
 #' Testing eq_location_clean function
 clean_data <- eq_location_clean(clean_data)
