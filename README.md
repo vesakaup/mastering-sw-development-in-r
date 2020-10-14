@@ -1,4 +1,4 @@
-(https://travis-ci.org/vesakaup/mastering-sw-development-in-r.svg?branch=master)
+
 
 
 This package is the deliverable for the course Mastering Software Development in R Capstone (JHSPH/Coursera).
